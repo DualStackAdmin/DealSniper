@@ -43,4 +43,5 @@ You can install DealSniper with a single command on your VPS.
 2. Run the following command block:
 
 ```bash
-wget -O install.sh [https://raw.githubusercontent.com/DualStackAdmin/DealSniper/main/install.sh](https://raw.githubusercontent.com/DualStackAdmin/DealSniper/main/install.sh) && sed -i 's/\r$//' install.sh && sudo bash install.sh
+wget -O install.sh https://raw.githubusercontent.com/DualStackAdmin/DealSniper/main/install.sh && sed -i 's/\r$//' install.sh && sudo bash install.sh
+
