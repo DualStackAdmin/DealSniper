@@ -1,2 +1,24 @@
-# DealSniper
-Self-hosted Tap.az marketplace monitor built with Python &amp; Flask. Features intelligent background scraping, SQLite database, and instant Telegram alerts. Includes a clean Bootstrap 5 Web Dashboard for managing tasks. Automated deployment via a single Bash script for Ubuntu/Debian servers. Automate your deal hunting today.
+# 🎯 DealSniper - Automated Marketplace Monitor
+
+DealSniper is a powerful, self-hosted web application designed to monitor the **Tap.az** marketplace for specific products. It automatically scrapes listing data, filters by price/date, and sends instant notifications to **Telegram**.
+
+![Dashboard Preview](https://via.placeholder.com/800x400.png?text=DealSniper+v5+Dashboard)
+
+## 🚀 Features
+
+* **🕵️‍♂️ Intelligent Scraping:** Monitors listings in the background without blocking the UI.
+* **📱 Telegram Alerts:** Receive instant notifications with product details and links.
+* **💻 Web Dashboard:** Clean, responsive Bootstrap interface to manage tasks.
+* **⚙️ Advanced Filters:** Filter by Keyword, Price Range (Min/Max), and Date (Today/Yesterday).
+* **🛡️ Anti-Detection:** Optimized headers and request delays to prevent IP blocking.
+* **🔧 Self-Hosted:** Runs as a Systemd service on Linux (Ubuntu/Debian).
+
+## 🛠️ Installation
+
+You can install DealSniper with a single command on your VPS.
+
+1. Connect to your server (Ubuntu/Debian).
+2. Run the following command:
+
+```bash
+wget -O install.sh [https://raw.githubusercontent.com/SİZİN_GITHUB_ADINIZ/DealSniper/main/install.sh](https://raw.githubusercontent.com/SİZİN_GITHUB_ADINIZ/DealSniper/main/install.sh) && sudo bash install.sh
