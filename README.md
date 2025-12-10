@@ -2,7 +2,7 @@
 
 DealSniper is a powerful, self-hosted web application designed to monitor the **Tap.az** marketplace for specific products. It automatically scrapes listing data, filters by price/date, and sends instant notifications to **Telegram**.
 
-![Dashboard Preview](https://via.placeholder.com/800x400.png?text=DealSniper+v5+Dashboard)
+![DealSniper Dashboard](DealSniper.jpg)
 
 ## 🚀 Features
 
@@ -21,4 +21,4 @@ You can install DealSniper with a single command on your VPS.
 2. Run the following command:
 
 ```bash
-wget -O install.sh [https://raw.githubusercontent.com/SİZİN_GITHUB_ADINIZ/DealSniper/main/install.sh](https://raw.githubusercontent.com/SİZİN_GITHUB_ADINIZ/DealSniper/main/install.sh) && sudo bash install.sh
+wget -O install.sh [https://raw.githubusercontent.com/DualStackAdmin/DealSniper/main/install_v5_en.sh](https://raw.githubusercontent.com/DualStackAdmin/DealSniper/main/install_v5_en.sh) && sudo bash install.sh
